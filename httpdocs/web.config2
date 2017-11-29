@@ -1,0 +1,13 @@
+<configuration>
+	<configSections>
+		<sectionGroup name="system.web">
+		</sectionGroup>
+	</configSections>
+
+	<system.web>
+		<sessionState cookieless="false" timeout="30" />
+		<pages validateRequest="false" />
+        <customErrors mode="Off"/>
+		<compilation debug="true"/>
+	</system.web>
+</configuration>

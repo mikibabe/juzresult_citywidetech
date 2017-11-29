@@ -1,0 +1,14 @@
+<configuration>
+	<configSections>
+		<sectionGroup name="system.web">
+		</sectionGroup>
+	</configSections>
+
+	<system.web>
+		<sessionState cookieless="false" timeout="50" />
+		
+        <customErrors mode="On" defaultRedirect="customerror.htm"/>
+		<compilation debug="false"/>
+
+	</system.web>
+</configuration>

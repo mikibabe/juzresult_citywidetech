@@ -1,0 +1,25 @@
+SCC = This is a Source Code Control file
+
+[B2A.dsp]
+SCC_Aux_Path = "\\192.168.1.1\vss1$\"
+SCC_Project_Name = "$/b2a", FUAAAAAA
+
+[invoice.aspx]
+SCC_Aux_Path = "\\192.168.1.1\VSS1$\"
+SCC_Project_Name = "$/b2a", EKIAAAAA
+
+[site.cs]
+SCC_Aux_Path = "\\192.168.1.1\VSS1$\"
+SCC_Project_Name = "$/b2a", EKIAAAAA
+
+[invoice.cs]
+SCC_Aux_Path = "\\192.168.1.1\VSS1$\"
+SCC_Project_Name = "$/b2a", EKIAAAAA
+
+[repair.aspx]
+SCC_Aux_Path = "\\192.168.1.1\VSS1$\"
+SCC_Project_Name = "$/b2a", EKIAAAAA
+
+[calendar.aspx]
+SCC_Aux_Path = "\\192.168.1.1\VSS1$\"
+SCC_Project_Name = "$/b2a", EKIAAAAA

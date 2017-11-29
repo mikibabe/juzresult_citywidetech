@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/admin/default.aspx?" title="Main"  description="" target="mainFrame" >
+      <siteMapNode url ="~/admin/default.aspx?r=" title ="Home" description ="">
+        <siteMapNode url="~/admin/login.aspx?logoff=true&amp;r=" title="Logoff"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/close.htm?r=" title="Exit"  description="" target="mainFrame" />
+      </siteMapNode>
+      
+      <siteMapNode  url="~/admin/default.aspx?ms=Sales" title="Sales"  description="" target="mainFrame" >
+        <siteMapNode url="~/admin/pos_retail.aspx?p=new&amp;r=" title="Create Invoice"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/pos.aspx?p=new&amp;ft=quote&amp;r=" title="Create Quote"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/pos.aspx?p=new&amp;ft=order&amp;r=" title="Create Order"  description="" target="mainFrame"/>
+        <siteMapNode url="~/admin/olist.aspx?o=11&amp;r=" title="Order List"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/salesref.aspx?r=" title="Price Reference"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/checkorder.aspx" title="Online Order"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/q.aspx?p=new&amp;r=" title="New Smart Package"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/olist.aspx?o=9&amp;r=" title="Package Quatation List"  description="" target="mainFrame" />
+      </siteMapNode>
+
+      <siteMapNode url ="~/admin/default.aspx?ms=Purchase" title ="Purchase" description ="" target="mainFrame">
+        <siteMapNode url="~/admin/purchase.aspx?t=new&amp;r=" title="Create Purchase"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/plist.aspx?r=" title="Purchase List"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/pwizard.aspx?r=" title="Purchase Analysis"  description="" target="mainFrame" />
+      </siteMapNode>
+
+      <siteMapNode url ="~/admin/default.aspx?ms=Contacts" title ="CRM" description ="" target="mainFrame">
+        <siteMapNode url="~/admin/card.aspx?r=" title="Customer List"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/card.aspx?approved=0&amp;r=" title="New Application"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/ecard.aspx?a=new&amp;r=" title="Users management"  description="" target="mainFrame" />
+      </siteMapNode>
+
+      <siteMapNode url ="~/admin/default.aspx?ms=Account" title ="Accounting" description ="" target="mainFrame">
+        <siteMapNode url="~/admin/checkorder.aspx?r=" title="Order List"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/custpay.aspx?r=" title="Receive Payment"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/suppay.aspx?r=" title="Pay Purchase"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/banking.aspx?r=" title="Daily Settlement"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/tp.aspx?n=deposit_list&amp;r=" title="Banking History"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/payhistory.aspx?r=" title="Payment Tracker"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/smail.aspx?reset=1&amp;r=" title="Email Statement"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/gsti.aspx?t=e&amp;r=" title="GST Expense Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/gsti.aspx?r=" title="GST Received Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/account.aspx?r=" title="Chart of Accounts"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/statement.aspx?r=" title="Statement"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/expense.aspx?t=new&amp;r=" title="Expense E"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/explist.aspx?r=" title="Expense List"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/exp_unpaid.aspx?r=" title="Unpaid Expense"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/explist.aspx?autolist=1&amp;r=" title="Auto Payment List"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/recon.aspx?t=new&amp;r=" title="Reconcile Account"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/assets.aspx?t=new&amp;r=" title="Fixed Asset Manage"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/asstpay.aspx?r=" title="Pay Fixed Assets"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/asstlist.aspx?r=" title="Fixed Assets Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/custdep.aspx?r=" title="Make Deposit"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/acc_owner.aspx?r=" title="Shareholder Trans"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/bl_sheet.aspx?r=" title="Balance Sheet"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/custax.aspx?r=" title="GST Transaction"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/transfer.aspx?r=" title="Fund Transfer"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/acc_refund.aspx?r=" title="Cancellation &amp; Return"  description="" target="mainFrame" />
+      </siteMapNode>
+
+      <siteMapNode url ="~/admin/default.aspx?ms=Stock" title ="Warehouse" description ="" target="mainFrame">
+        <siteMapNode url="~/admin/olist.aspx?r=" title="Order List"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/plist.aspx?t=2&amp;s=1&amp;r=" title="Purchase List"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/stock.aspx?r=" title="Inventory List"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/stock_adj.aspx?r=" title="Inventory Count"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/tp.aspx?n=stock_value&amp;r=" title="Value Stock Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/stock_value.aspx?r=" title="Inventory Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/tp.aspx?n=marketing_stock_value&amp;r=" title="Market Value Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/sra.aspx?r=" title="Service Center"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/borrow.aspx?t=new&amp;r=" title="Borrow Item"  description="" target="mainFrame" />
+      </siteMapNode>
+
+      <siteMapNode url ="~/admin/default.aspx?ms=Service" title ="Service" description ="" target="mainFrame">
+        <siteMapNode url="~/admin/repair.aspx?ra=cr&amp;r=" title="Customers RA Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/repair.aspx?ra=all&amp;r=" title="Input Fault Items"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/techr.aspx?r=" title="Customers RA Pro"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/supp_rma.aspx?r=" title="Supplier RMA Request"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/supp_rma.aspx?rma=rd&amp;ssp=all&amp;st=1&amp;r=" title="Supplier RMA Pro"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/support.aspx?r=" title="Customer Service"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/snsearch.aspx?r=" title="Serial Number Trace"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/rma_rp.aspx?r=" title="Trace RMA Items Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/stk_borrow.aspx?r=" title="RMA Stock Borrow"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/stk_borrow.aspx?lt=ap&amp;r=" title="Item Approve/Returned"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/rasetting.aspx?r=" title="RA From Template"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/ra_stock.aspx?r=" title="RAM Stock"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/ra_menu.aspx?r=" title="RAM Menu"  description="" target="mainFrame" />
+      </siteMapNode>
+
+      <siteMapNode url ="~/admin/default.aspx?ms=Report" title ="Report" description ="" target="mainFrame">
+        <siteMapNode url="~/admin/acc_report.aspx?r=" title="Account Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/custax_rp.aspx?r=" title="Customers GST Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/rcurrency.aspx?r=" title="Currency P &amp; L Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/cps.aspx?r=" title="Customer Purchase Statistics"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/rfinance.aspx?r=" title="Finance P &amp; L Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/irdtax_form.aspx?r=" title="IRD Tax Return"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/rprofit.aspx?r=" title="Profit &amp; Loss"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/p_report.aspx?r=" title="Purchase Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/rbalance.aspx?r=" title="Payment Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/rlist.aspx?r=" title="Receivable Analyze"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/report.aspx?r=" title="Sales Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/rsales.aspx?r=" title="Sales &amp; Commission"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/tp.aspx?n=stock_loss&amp;r=" title="Stock Loss Report"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/tp.aspx?n=payable&amp;r=" title="Total Payable"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/t_receivable.aspx?r= " title="Total Receivable"  description="" target="mainFrame" />
+      </siteMapNode>
+
+      <siteMapNode url ="~/admin/default.aspx?ms=Tools" title ="Tools" description ="" target="mainFrame">
+        <siteMapNode url="~/admin/addp.aspx?r=" title="Add New Product"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/checkpic.aspx?r=" title="Check Uploaded Photo"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/eprice.aspx?d=&amp;c=hardware&amp;r=" title="Edit Products"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/ec.aspx?r=" title="Product Categories"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/emenucat.aspx?r=" title="Security Setup"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/eprice.aspx?po=1&amp;d=&amp;c=&amp;r=" title="Phased Out Product"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/newship.aspx?r=" title="Shipping Tickets"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/editimg.aspx?r=" title="Site Images"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/editpage.aspx?r=" title="Site Pages"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/setting.aspx?r=" title="Edit Site Settings"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/especial.aspx?r=" title="Add Special"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/sqm.aspx?r=" title="System Quotation Smart Package Setup"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/c.aspx?endorder=1&amp;r=" title="Quick Add Product"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/eprice.aspx?service=1&amp;r=" title="Service Item"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/tp.aspx?n=tp_list&amp;r=" title="Report Template"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/kit.aspx?t=ec&amp;new=1&amp;r=" title="Kit Setup"  description="" target="mainFrame" />
+        </siteMapNode>
+
+      <siteMapNode url ="~/admin/default.aspx?ms=Site" title ="Site" description ="" target="mainFrame">
+        <siteMapNode url="~/admin/whoson.aspx?r=" title="Who's Online"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/broadmail.aspx?r=" title="Group Mail"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/setpwd.aspx?r=" title="Change My Password"  description="" target="mainFrame" />
+        <siteMapNode url="http://173.83.253.91/" title="Public Site"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/catlogo.aspx?r=" title="Subcat Images"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/color.aspx?r=" title="Srtup Site Color"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/bb.aspx?r=" title="Public DashBoard"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/notepad.aspx?r=" title="Personal Planner"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/doc.aspx?r=" title="File Folder"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/backup.aspx?r=" title="Backup"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/archive.aspx?r=" title="Archive Datebase"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/branch.aspx?r=" title="Brance Setup"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/import.aspx?r=" title="Import Date"  description="" target="mainFrame" />
+      </siteMapNode>
+
+      <siteMapNode url ="~/admin/default.aspx?ms=Help" title ="Help" description ="" target="mainFrame">
+        <siteMapNode url="" title="Current page"  description="" target="mainFrame" />
+        <siteMapNode url="" title="Help Index"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/dev_task.aspx?t=a&amp;r=" title="Add New Task"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/dev_task.aspx?owner=me&amp;r=" title="My Task"  description="" target="mainFrame" />
+        <siteMapNode url="~/admin/dev_task.aspx?r=" title="Task List"  description="" target="mainFrame" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>
