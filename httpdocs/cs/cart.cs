@@ -1618,10 +1618,6 @@ string PrintCart(bool bButton, bool bInvoice, bool isDealer, bool payByCreditCar
 
 	
 	
-	
-	
-	
-	
     if(payByCreditCard == true){
 		
 		//miki 20171129, old code.
